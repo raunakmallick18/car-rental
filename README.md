@@ -35,7 +35,7 @@ A full-stack **Car Rental Management System** built using **Django**, featuring 
 | Layer        | Technology |
 |--------------|------------|
 | Backend      | Django (Python) |
-| Frontend     | HTML, CSS |
+| Frontend     | HTML, CSS, JavaScript |
 | Database     | SQLite |
 | Auth         | Django Auth |
 | ORM          | Django ORM |
@@ -45,23 +45,37 @@ A full-stack **Car Rental Management System** built using **Django**, featuring 
 ## 📁 Project Structure
 
 Car_Rental/
-├── bicycle/ # Main Django app
-│ ├── models.py # Car & Booking models
-│ ├── views.py # Auth & booking logic
-│ ├── admin.py # Admin registrations
-│ ├── urls.py
-│ └── migrations/
 │
-├── templates/ # HTML templates
-│ ├── index.html
-│ ├── login.html
-│ ├── register.html
-│ └── booking.html
+├── bicycle/                     # Core Django application
+│   ├── migrations/              # Database migration files
+│   ├── __init__.py
+│   ├── admin.py                 # Admin panel configuration
+│   ├── models.py                # Car and Booking database models
+│   ├── views.py                 # Authentication & booking logic
+│   └── urls.py                  # App-level URL routing
 │
-├── static/ # Static files (CSS, JS)
-├── db.sqlite3 # Database
-├── manage.py
-└── settings.py
+├── templates/                   # HTML templates
+│   ├── index.html               # Homepage – car listings
+│   ├── booking.html             # Car booking page
+│   ├── login.html               # User login page
+│   └── register.html            # User registration page
+│
+├── static/                      # Static assets
+│   ├── css/                     # Stylesheets
+│   ├── js/                      # JavaScript files
+│   └── images/                  # Images (cars, logos, UI assets)
+│
+├── Car_Rental/                  # Django project configuration
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py              # Project settings
+│   ├── urls.py                  # Project-level URL routing
+│   └── wsgi.py
+│
+├── db.sqlite3                   # SQLite database
+├── manage.py                    # Django management script
+└── README.md                    # Project documentation
+
 
 ---
 
