@@ -1,4 +1,4 @@
-# 🚗 Car Rental Management System (Django)
+# 🚗 DriveEase - Car Rental Management System
 
 A full-stack **Car Rental Management System** built using **Django**, featuring user authentication, car booking, admin management, and dynamic price calculation. This project is suitable for academic submissions, portfolio showcasing, and real-world learning.
 
