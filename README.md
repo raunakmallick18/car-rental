@@ -83,4 +83,4 @@ Car_Rental/
 
 ## 📸 Screenshot
 
-![GitHub Logo](https://github.com/raunakmallick18/React-Music-Player-App/blob/main/2d73d7a4-a41f-4f34-8b68-a4b17903c55e.png)
+![GitHub Logo](https://github.com/raunakmallick18/React-Music-Player-App/blob/main/DriveEase.png)
