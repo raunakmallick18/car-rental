@@ -44,13 +44,14 @@ A full-stack **Car Rental Management System** built using **Django**, featuring 
 
 ## 📁 Project Structure
 
+```text
 Car_Rental/
 │
 ├── bicycle/                     # Core Django application
 │   ├── migrations/              # Database migration files
 │   ├── __init__.py
 │   ├── admin.py                 # Admin panel configuration
-│   ├── models.py                # Car and Booking database models
+│   ├── models.py                # Car & Booking database models
 │   ├── views.py                 # Authentication & booking logic
 │   └── urls.py                  # App-level URL routing
 │
@@ -75,7 +76,6 @@ Car_Rental/
 ├── db.sqlite3                   # SQLite database
 ├── manage.py                    # Django management script
 └── README.md                    # Project documentation
-
 
 ---
 
