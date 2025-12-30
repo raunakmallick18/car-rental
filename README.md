@@ -77,6 +77,8 @@ Car_Rental/
 ├── manage.py                    # Django management script
 └── README.md                    # Project documentation
 
+```
+
 ---
 
 ## 📸 Screenshot
